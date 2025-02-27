@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to the REST API with Kundi!");
 });
 app.get("/test", (req, res) => {
-  res.send(<h3>Test</h3>);
+  res.send("<h3>Test</h3>");
 });
 
 app.listen(port, () => {
