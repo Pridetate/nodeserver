@@ -7,7 +7,7 @@ require("dotenv").config();
 app.use(express.json()); // Middleware to parse JSON requests
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the REST API!");
+  res.send("Welcome to the REST API with Kundi!");
 });
 
 app.listen(port, () => {
